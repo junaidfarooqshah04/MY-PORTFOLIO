@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+}
+.my-element {
+    display: inline-block;
+    margin: 0 0.5rem;
+  
+    animation:rollIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s; /* don't forget to set a duration! */
+  }
+  /* This only changes this particular animation duration */
+.animate__animated.animate__rollIn {
+    --animate-duration: 2s;
+  }
+  
+  /* This changes all the animations globally */
+  :root {
+    --animate-duration: 800ms;
+    --animate-delay: 0.9s;
+  }
+
+
+.hello:hover{
+    color: yellow;
+}
+
+.world:hover{
+    color: rgb(240, 240, 28);
+}
+
+.first:hover{
+    cursor: default;
+    transform: rotatey(360deg);
+    transition: all 3s ease-in-out 0s;
+}
+.apple{
+    
+    transition-duration: 3s;   
+}
+
+.second:hover{
+    cursor: default;
+    transform: rotatey(360deg);
+    transition: all 3s ease-in-out 0s;
+}
+.banana{
+    
+    transition-duration: 3s;   
+}
+
+.third:hover{
+    cursor: default;
+    transform: rotatey(360deg);
+    transition: all 3s ease-in-out 0s;
+}
+.pear{
+    
+    transition-duration: 3s;   
+}
+
+
+.fourth:hover{
+    cursor: default;
+    transform: rotatey(360deg);
+    transition: all 3s ease-in-out 0s;
+}
+.cherry{
+    
+    transition-duration: 3s;   
+}
+
+.fifth:hover{
+    cursor: default;
+    transform: rotatey(360deg);
+    transition: all 3s ease-in-out 0s;
+}
+.mango{
+    
+    transition-duration: 3s;   
+}
+.ss{
+    border-radius: 50%;
+    height:4rem;
+    width:4rem;
+    font-size:2rem;
+    color:red;
+}
+.sm{
+    border-radius: 50%;
+    height:4rem;
+    width:4rem;
+    font-size:2rem;
+    color: grey;
+}
+.sw{
+    border-radius: 50%;
+    height:4rem;
+    width:4rem;
+    font-size:2rem;
+    
+}
